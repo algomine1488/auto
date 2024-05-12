@@ -1,0 +1,163 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: orangered;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    background-color: orange;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px black ;
+    transition: all 0.4s ease;
+}
+
+
+nav {
+    border-top: 5px double black ;
+    border-bottom: 5px double black;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    transition: all 0.3s ease-in;
+}
+    
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    margin-left: 69px;
+    text-shadow:  10px 10px 10px black ;
+}
+
+h1:hover {
+    font-size: 70px;
+    transition: all 0.3s ease;
+}
+
+footer {
+    background-color: orangered;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+    width: auto;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.house {
+    width: 17px;
+    margin: 3px 3px 1px 3px;
+}
+
+.phone {
+    width: 17px;
+    margin: 3px 3px 1px 3px;
+}
+
+.footer-text span {
+    color: black;
+    font-weight: bolder;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+article {
+    width: 500px;
+    justify-content: center;
+    background-color: orangered;
+    margin: 30px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.post-img {
+    border-radius: 20px;
+}
+
+.post-text {
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    margin: 8px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.article-but {
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: skyblue;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.article-but:visited {
+    color: darkblue;
+}
+
+.text {
+    border-left: 5px double black;
+    border-right: 5px double black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.text:hover{
+    font-size: 25px;
+    transition: all 0.5s ease-in;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logo {
+    border-radius: 20px;
+}
